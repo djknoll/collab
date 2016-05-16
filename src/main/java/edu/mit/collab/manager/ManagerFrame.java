@@ -108,7 +108,7 @@ public class ManagerFrame extends JFrame implements DesignerListener {
 	// action to log comments
 	private final Action logCommentAction = new AbstractAction("Log", 
 			new ImageIcon(getClass().getClassLoader()
-					.getResource("resources/pencil.png"))) {
+					.getResource("pencil.png"))) {
 		private static final long serialVersionUID = -6911789719643032313L;
 		
 		@Override
@@ -163,7 +163,7 @@ public class ManagerFrame extends JFrame implements DesignerListener {
 	// action to toggle between full screen and windowed mode
 	private final Action fullscreenAction = new AbstractAction("Fullscreen", 
 			new ImageIcon(getClass().getClassLoader()
-					.getResource("resources/arrow_inout.png"))) {
+					.getResource("arrow_inout.png"))) {
 		private static final long serialVersionUID = -5248342087657327750L;
 		
 		@Override
@@ -175,7 +175,7 @@ public class ManagerFrame extends JFrame implements DesignerListener {
 	// action to advance to next model in experiment
 	private final Action nextModelAction = new AbstractAction("Next Model", 
 			new ImageIcon(getClass().getClassLoader()
-					.getResource("resources/arrow_right.png"))) {
+					.getResource("arrow_right.png"))) {
 		private static final long serialVersionUID = 2441873772423897829L;
 		@Override
 		public void actionPerformed(ActionEvent e) {
@@ -194,7 +194,7 @@ public class ManagerFrame extends JFrame implements DesignerListener {
 	// action to end the training mode
 	private final Action endTrainingAction = new AbstractAction("End Training",
 			new ImageIcon(getClass().getClassLoader()
-					.getResource("resources/arrow_switch.png"))) {
+					.getResource("arrow_switch.png"))) {
 		private static final long serialVersionUID = -7938329920483460804L;
 		@Override
 		public void actionPerformed(ActionEvent e) {
@@ -212,7 +212,7 @@ public class ManagerFrame extends JFrame implements DesignerListener {
 		// set title and icon image
 		super("Manager");
 		setIconImage(new ImageIcon(getClass().getClassLoader()
-				.getResource("resources/group.png")).getImage());
+				.getResource("group.png")).getImage());
 		
 		// set minimum size of window (preferred size will vary 
 		// with number of inputs and outputs)
@@ -946,11 +946,11 @@ public class ManagerFrame extends JFrame implements DesignerListener {
 					if(Math.random() < 0.5) {
 						inputStream = AudioSystem.getAudioInputStream(
 								getClass().getClassLoader().getResourceAsStream(
-										"resources/success-1.wav"));
+										"success-1.wav"));
 					} else {
 						inputStream = AudioSystem.getAudioInputStream(
 								getClass().getClassLoader().getResourceAsStream(
-										"resources/success-2.wav"));
+										"success-2.wav"));
 					}
 					// run audio in separate thread
 					new Thread(new Runnable() {

@@ -24,7 +24,7 @@ public class BasicInputPanel extends InputPanel {
 	private static final double maxValue = 1d, minValue = -1d;
 	private static final ImageIcon readyIcon = new ImageIcon(
 			BasicInputPanel.class.getClassLoader().getResource(
-					"resources/star.png"));
+					"star.png"));
 	
 	private final int designerIndex, inputIndex; // immutable
 	private final JSlider inputSlider; // mutable

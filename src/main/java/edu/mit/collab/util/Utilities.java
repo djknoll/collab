@@ -41,23 +41,23 @@ import edu.mit.collab.manager.Experiment;
  * @author Paul T. Grogan, ptgrogan@mit.edu
  */
 public abstract class Utilities {
-    public static String PROPERTIES_PATH = "resources/config.properties";
+    public static String PROPERTIES_PATH = "config.properties";
     
 	// an array of user icons to represent designers
 	// indexed by designer number
 	private static final ImageIcon[] userIcons = new ImageIcon[]{
 		new ImageIcon(Utilities.class.getClassLoader()
-				.getResource("resources/user_red.png")),
+				.getResource("user_red.png")),
 		new ImageIcon(Utilities.class.getClassLoader()
-				.getResource("resources/user_green.png")),
+				.getResource("user_green.png")),
 		new ImageIcon(Utilities.class.getClassLoader()
-				.getResource("resources/user.png")),
+				.getResource("user.png")),
 		new ImageIcon(Utilities.class.getClassLoader()
-				.getResource("resources/user_female.png")),
+				.getResource("user_female.png")),
 		new ImageIcon(Utilities.class.getClassLoader()
-				.getResource("resources/user_orange.png")),
+				.getResource("user_orange.png")),
 		new ImageIcon(Utilities.class.getClassLoader()
-				.getResource("resources/user_gray.png"))
+				.getResource("user_gray.png"))
 		};
 	
 	// an array of colors to represent designers indexed by designer number

@@ -25,13 +25,13 @@ public class ManualQuantitativeOutputPanel extends OutputPanel {
 	private static final ImageIcon 
 			withinRangeIcon = new ImageIcon(
 					BasicOutputPanel.class.getClassLoader().getResource(
-							"resources/tick.png")),
+							"tick.png")),
 			outOfRangeIcon = new ImageIcon(
 					BasicOutputPanel.class.getClassLoader().getResource(
-							"resources/cross.png")),
+							"cross.png")),
 			calculatorIcon = new ImageIcon(
 					BasicOutputPanel.class.getClassLoader().getResource(
-							"resources/calculator.png"));
+							"calculator.png"));
 	
 	private double currentOutput; // mutable
 	private final double targetOutput; // immutable

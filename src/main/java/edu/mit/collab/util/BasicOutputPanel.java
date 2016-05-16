@@ -18,10 +18,10 @@ public class BasicOutputPanel extends OutputPanel {
 	private static final ImageIcon 
 			withinRangeIcon = new ImageIcon(
 					BasicOutputPanel.class.getClassLoader().getResource(
-							"resources/tick.png")),
+							"tick.png")),
 			outOfRangeIcon = new ImageIcon(
 					BasicOutputPanel.class.getClassLoader().getResource(
-							"resources/cross.png"));
+							"cross.png"));
 	
 	private final double targetOutput; // immutable
 	private final JSlider outputSlider; // mutable

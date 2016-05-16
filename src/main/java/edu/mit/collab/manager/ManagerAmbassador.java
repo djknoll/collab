@@ -710,7 +710,7 @@ public class ManagerAmbassador extends NullFederateAmbassador {
 			rtiAmbassador.createFederationExecution(
 			    properties.getProperty("federationName", "collab"), 
 			    getClass().getClassLoader().getResource(
-			        properties.getProperty("fomPath", "resources/collab.xml")));
+			        properties.getProperty("fomPath", "collab.xml")));
 		} catch(FederationExecutionAlreadyExists ignored) { }
 		
 		// try to join the federation execution; ignore if already joined

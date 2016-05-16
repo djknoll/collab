@@ -74,7 +74,7 @@ public class DesignerFrame extends JFrame
 	// action to submit a design
 	private final Action submitAction = new AbstractAction("Submit", 
 			new ImageIcon(getClass().getClassLoader()
-					.getResource("resources/add.png"))) {
+					.getResource("add.png"))) {
 		private static final long serialVersionUID = 5671259193377510485L;
 		
 		@Override
@@ -86,7 +86,7 @@ public class DesignerFrame extends JFrame
 	// action to cancel a design submission
 	private final Action cancelAction = new AbstractAction("Cancel", 
 			new ImageIcon(getClass().getClassLoader()
-					.getResource("resources/cancel.png"))) {
+					.getResource("cancel.png"))) {
 		private static final long serialVersionUID = 5671259193377510485L;
 		
 		@Override
@@ -108,7 +108,7 @@ public class DesignerFrame extends JFrame
 	// action to toggle between full screen and windowed mode
 	private final Action fullscreenAction = new AbstractAction("Fullscreen", 
 			new ImageIcon(getClass().getClassLoader()
-					.getResource("resources/arrow_inout.png"))) {
+					.getResource("arrow_inout.png"))) {
 		private static final long serialVersionUID = -5248342087657327750L;
 		
 		@Override
